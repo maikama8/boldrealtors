@@ -60,6 +60,7 @@ storage/framework/maintenance.php
 .mcp.json
 .taskmaster/
 
-# Documentation files
+# Documentation files (exclude all .md files except plugin READMEs)
 *.md
-!README.md
+!**/README.md
+!**/readme.md
